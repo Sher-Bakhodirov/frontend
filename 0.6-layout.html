@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="horizontal-nav">
+        <button class="horizontal-nav-btn">New</button>
+        <button class="horizontal-nav-btn">Reply</button>
+        <button class="horizontal-nav-btn">Forward</button>
+        <button class="horizontal-nav-btn">Mark Unread</button>
+        <button class="horizontal-nav-btn horizontal-nav-btn-trash">
+          Trash
+        </button>
+      </nav>
+      <nav class="vertical-nav">
+        <button class="vertical-nav-btn btn-inbox vertical-nav-btn-active">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="vertical-nav-btn-icon inbox-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+            />
+          </svg>
+        </button>
+        <button class="vertical-nav-btn btn-account">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="vertical-nav-btn-icon account-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </button>
+        <button class="vertical-nav-btn btn-settings">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="vertical-nav-btn-icon settings-btn"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+          </svg>
+        </button>
+        <button class="vertical-nav-btn btn-info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="vertical-nav-btn-icon info-icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+        </button>
+      </nav>
+      <div class="email-list">
+        <button class="email-inbox email-inbox-active">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">John Doe</span>
+            <span class="subject-inbox">We launched Lorem</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Abel Hanna</span>
+            <span class="subject-inbox">Eum sequi pariatur</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Nathanael Richard</span>
+            <span class="subject-inbox">Libero possimus deleniti</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Carolyn Rubio</span>
+            <span class="subject-inbox">Dolores voluptatem sapiente?</span>
+          </div>
+        </button>
+
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Salvatore Kaiser</span>
+            <span class="subject-inbox">Neque aut expedita</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Hugo Melendez</span>
+            <span class="subject-inbox">Aperiam labore, explicabo.</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Scarlet Villegas</span>
+            <span class="subject-inbox">Lerferendis cupiditate!</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Jerry Osborne</span>
+            <span class="subject-inbox">Ut quis officiis sequi facere</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Chase Villanueva</span>
+            <span class="subject-inbox">Laliquam molestias vitae</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Michaela Oneal</span>
+            <span class="subject-inbox">eaque labore consequatur neque</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">JAlec Henson</span>
+            <span class="subject-inbox">Lorel eveniet ab</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Arielle Benitez</span>
+            <span class="subject-inbox">Lodistinctio natus minima quidem</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Jaqueline Burgess</span>
+            <span class="subject-inbox">Liusto nesciunt voluptatem</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Devyn Barajas</span>
+            <span class="subject-inbox"
+              >Reiciendis corporis officia commodi</span
+            >
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Kevin Cook</span>
+            <span class="subject-inbox">Quidem illo hic.</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Rosemary Massey</span>
+            <span class="subject-inbox">Maxime, quaerat vitae!</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Violet Martin</span>
+            <span class="subject-inbox">Ex eos neque aspernatur.</span>
+          </div>
+        </button>
+        <button class="email-inbox">
+          <img src="PngItem_4042710.png" width="50" />
+          <div class="sender-info-inbox">
+            <span class="sender-name-inbox">Haley Harrison</span>
+            <span class="subject-inbox"
+              >Lototam aperiam quibusdam incidunt?</span
+            >
+          </div>
+        </button>
+      </div>
+
+      <div class="email-view">
+        <div class="sender">
+          <img
+            src="PngItem_4042710.png"
+            alt="profile picture"
+            width="65"
+            class="sender-img"
+          />
+          <div class="sender-info">
+            <span class="sender-name">John Doe</span>
+            <span class="receive-date">Sat 2/5/2022</span>
+            <span class="receiver-name">To: Kevin Malone</span>
+          </div>
+        </div>
+        <span class="email-text">
+          Hi Kevin I hope you are having a wonderful day!<br />I am emailing you
+          today to let you know we have opened doors to our Lorem.<br />It helps
+          you Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          architecto eveniet repellat cumque maxime!<br />To learn more about
+          what it does, click here…<a href="#">[Link]</a><br />Make sure you buy
+          it before 06.07.2022.<br />Here is a testimonial from a recent
+          customer Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          .<br />
+          If you have any questions about the product, please respond to this
+          email or use the live chat on the product page. Our staff is waiting
+          to respond to you.<br />Thank you,<br />John Doe</span
+        >
+      </div>
+      <div class="info">
+        <div class="info-main">
+          <img src="PngItem_4042710.png" width="90" />
+          <span class="info-name">John Doe</span>
+          <span class="class-info">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            veritatis quaerat perferendis, officiis
+          </span>
+          <a href="tel:+18006950700" class="phone">+1(800)695-0700</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
